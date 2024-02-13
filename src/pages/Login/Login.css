@@ -1,0 +1,107 @@
+.body-l {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    background-image: url('../../../public/images/bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-size: cover;
+}
+
+.container-l {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(138, 138, 138);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    opacity: 0.8;
+    width: 90%; /* Adjust width as needed */
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 2px solid rgb(73,57,113);
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+    flex: 0 0 100%; /* Take full width on small screens */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-container {
+    flex: 0 0 100%; /* Take full width on small screens */
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group select,
+.form-group input {
+    padding: 8px ;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.button-group {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items : center;
+    padding:10px;
+}
+
+.button-group button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-group button:hover {
+    opacity: 0.8;
+}
+
+.button-group a {
+    color: #333;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+
+    .image-container,
+    .form-container {
+        flex: 0 0 100%; /* Take full width on small screens */
+    }
+}
+

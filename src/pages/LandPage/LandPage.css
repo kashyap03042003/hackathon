@@ -1,0 +1,36 @@
+.body-landpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #18033a 0%, #7d34db 20%, #1a023a 50%);
+    margin: 0px;
+    padding: 0px;
+    width: 102vw;
+    height: 102vh;
+    font-family:sans-serif;
+
+}
+.container-landpage{
+    display: flex;
+    margin: 80px 0;
+    justify-content: center;
+    align-items: center;    
+    color: white;
+}
+.left-landpage{
+    width:100%;
+}
+.left-landpage h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.right-landpage{
+    width:100%;
+}
+.btn-landpage{
+    background-color: black;
+    color: white;
+    padding: 15px 18px;
+    border-radius: 4px;
+    font-weight: 500;
+}
